@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "agentic_rag"
+version = "0.0.1"
+description = "Tutorial on RAG and AI Agents"
+authors = ["Oleg Litvinov <olegolego1997@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.13"
+dotenv = "^0.9.9"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+openai = "^1.66.0"
+langchain = "^0.3.20"
+langchain-community = "^0.3.19"
+bs4 = "^0.0.2"
+pypdf = "^5.4.0"
+scikit-learn = "^1.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
