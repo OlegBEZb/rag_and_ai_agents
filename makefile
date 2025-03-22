@@ -1,7 +1,6 @@
 SRC_DIR=src
 SOURCES=$(shell find $(SRC_DIR) -name "*.py")
 
-# Set default values; allow overriding via env vars
 PYTHON_VERSION ?= python3.13
 POETRY_PATH ?= poetry@2.1  # pipx install --suffix "@2.1" poetry==2.1.1
 OS := $(shell uname -s)
